@@ -69,7 +69,7 @@ exports.handler = async (event, context) => {
 
     return {
       statusCode: 301,
-      headers: { Location: '/calendar.html' }
+      headers: { Location: '/schedule.html' }
     }
   } catch (error) {
     console.error(error);
